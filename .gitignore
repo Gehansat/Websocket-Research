@@ -1,0 +1,23 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Ignore model and large files
+*.pt
+*.joblib
+
+# Logs and local files
+*.log
+*.sqlite3
+instance/
+
+# Ignore Google Cloud deployment files if not needed
+.gcloudignore
+app.yaml
